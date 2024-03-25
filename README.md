@@ -34,12 +34,16 @@ Faster R-CNN is a model primarily designed for object detection tasks, where the
 
 this is the basic approach to adapt Faster R-CNN for MNIST classification using the Detectron2 library: 
 
-Preprocessing:You need to preprocess the MNIST dataset to create bounding boxes around each digit within the images. You can either use fixed-size bounding boxes or dynamically compute bounding boxes based on the location of digits within each image.
+# Preprocessing:
+You need to preprocess the MNIST dataset to create bounding boxes around each digit within the images. You can either use fixed-size bounding boxes or dynamically compute bounding boxes based on the location of digits within each image.
 
-Data Formatting: Convert the MNIST dataset into a format suitable for Faster R-CNN training. Each sample should contain the image along with its corresponding bounding boxes and labels.
+# Data Formatting:
+Convert the MNIST dataset into a format suitable for Faster R-CNN training. Each sample should contain the image along with its corresponding bounding boxes and labels.
 
 Model Configuration: Configure Faster R-CNN architecture in Detectron2. You might need to modify the model architecture to handle the small size of MNIST digits.
 
-Training: Train the Faster R-CNN model on the MNIST dataset using Detectron2's training pipeline.
+# Training: 
+Train the Faster R-CNN model on the MNIST dataset using Detectron2's training pipeline.
 
-Evaluation: Evaluate the trained model on a separate validation set or test set to measure its performance in terms of accuracy, precision, recall, etc.
+# Evaluation:
+Evaluate the trained model on a separate validation set or test set to measure its performance in terms of accuracy, precision, recall, etc.
