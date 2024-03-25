@@ -5,6 +5,8 @@ in this lab we will buil the neural architectures CNN and faster RCNN and VIT fo
 
 in this part i had build a CNN architecture for the MNIST dataset, which contains grayscale images of handwritten digits from 0 to 9.
 
+![Screenshot from 2024-03-25 01-34-57](https://github.com/ELMACHKOURIImane/Lab-2/assets/114507748/a2d51cd2-7fb6-4822-9bbc-754249f6c77b)
+
 
 # Model Architecture:
 Input Layer: The input images have a single channel (grayscale), so the input layer is defined with nn.Conv2d(1, 6, 5), which means it takes one input channel, generates six output channels, and uses a kernel size of 5x5.
